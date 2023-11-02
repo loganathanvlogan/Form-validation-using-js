@@ -1,0 +1,130 @@
+.container {
+  border-radius: 5px;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+/* OVERALL INPUT BOX */ 
+
+input[type=text], textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size:21px;
+}
+
+
+
+/* OVERALL LABEL */ 
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+
+/* OVERALL SUBMIT BOX */ 
+
+
+input[type=submit] {
+  background-color:rgb(244, 20, 20);
+  color: white;
+  padding: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+}
+
+
+/* SUBMIT BOX HOVER */ 
+
+input[type=submit]:hover{
+
+  background-color: greenyellow;
+  animation-duration: 2s;
+  animation-name: sub;
+}
+
+@keyframes sub{
+  from{
+    background-color: red;
+  }
+  to{
+    background-color: rgb(29, 216, 73);
+  }
+}
+
+
+/* OVERALL CONTAINER HOVER */ 
+
+.container:hover{
+
+  background-color: rgb(239, 68, 239);
+  animation-name: logan;
+  animation-duration: 3s;
+}
+
+@keyframes logan{
+  0%{
+
+    background-color: blue;
+
+  }
+  25%{
+    background-color: cadetblue;
+  }
+
+  50%{
+    background-color: chocolate;
+
+  }
+  100%{
+    background-color: yellowgreen;
+  }
+}
+
+
+/* HEADING */ 
+
+
+.container h1{
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.one {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+
+.two {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+
+
+.cen{
+
+  text-align: center;
+  padding: 60px;
+  font-size: 50px;
+
+  
+}
+
